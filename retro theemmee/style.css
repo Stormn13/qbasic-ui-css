@@ -1,0 +1,82 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: blue;
+    z-index: 1;
+}
+@font-face {
+    font-family: retro;
+    src: url(retro.ttf);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 3x;
+}
+.navl{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 10px;
+    
+}
+.navr{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 10px;
+    
+}
+.link{
+    padding: 1px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: retro;
+}
+.hrr{
+    background-color: #D3D3D3;
+    border: none;
+    padding: 1px;
+    
+    border-top: 30px;
+}
+.filename{
+    text-align: center; 
+    background-color:gray;
+    color: blue; 
+    margin: 0px 600px;
+    font-size: 30px;
+    font-family: retro;
+    padding-top: 2px;
+    z-index: 2;
+    position: absolute; top: 27px;
+    
+
+}
+.code{
+    padding: 10px;
+    font-size: 30px;
+    font-family: retro;
+    color: gray;
+    border: 5px solid gray;
+    
+
+}
+.text2{
+    margin: 0px 600px;
+    font-size: 30px;
+    font-family: retro;
+    padding-top: 2px;
+    z-index: 2;
+    position: absolute; top: 465px;
+    text-align: center; 
+    color: gray;
+    background-color: blue;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightseagreen;
+    padding: 5px;
+}
